@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+}
+
+.page {
+    background-image: url("assets/images/bg.png")
+}
+
+.wrapper {
+    width: 960px;
+    margin: auto
+}
+
+#header {
+    background-color: #ffffff;
+    height: 60px;
+    clear: both;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    ;
+    border: solid #cccccc;
+    position: relative;
+}
+
+li {
+    list-style-type: none;
+    border-right: 1px solid #bbb;
+    margin-bottom: 20px;
+    margin-right: auto;
+    padding: 4px;
+    text-align: center;
+}
+
+li:first-child {
+    border-right: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #777777
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 0;
+    margin-left: 0
+}
+
+#name {
+    background: #4aaaa5;
+    padding-top: auto;
+    padding-bottom: 10px;
+    font-size: larger;
+    color: #ffffff;
+    margin-bottom: 0px;
+    padding-left: 0;
+    margin-left: 0
+}
+
+#content {
+    position: relative;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    overflow: auto;
+    background-color: #ffffff;
+    color: #777777;
+    font-size: 20px;
+    border-color: #dddddd;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#me {
+    padding-right: 80%;
+    margin-left: 10px;
+    color: #4aaaa5;
+    background: #ffffff;
+    font-size: larger;
+    border-bottom: 2px solid #666666;
+}
+
+#content p {
+    text-align: justify;
+}
+
+.main {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    background: #ffffff;
+    overflow: auto;
+    clear: both;
+}
+
+.image1 {
+    width: 150px;
+    float: left;
+    margin: 4px 4px 4px
+}
+
+footer {
+    clear: both;
+    bottom: 2px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    border-top: solid #4aaaa5
+}
